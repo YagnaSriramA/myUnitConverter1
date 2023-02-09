@@ -1,0 +1,154 @@
+body{
+    margin-top:110px;
+    background-image: linear-gradient(to right, rgb(209, 235, 215), rgb(180, 239, 243));
+    /* font-family:'Times New Roman', Times, serif */
+}
+*{
+    font-family:"Sofia Sans",sans-serif;
+}
+
+#title-div{
+    display:flex;
+    justify-content:center;
+    /* font-family: Helevtica; */
+    font-weight: lighter;
+    margin-bottom:50px;
+}
+
+#title-div h1{
+    font-size:45px;
+}
+
+
+#form-div{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+#measure-div
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+
+#unit1-div
+{
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+    width:50%;
+}
+
+#unit2-div
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:50%;
+}
+#measure-div p
+{
+    margin-right:10px;
+    font-size:21px;
+}
+#measure-div select
+{
+    height:21px;
+    border-radius:0px;
+    border:none;
+    width:160px;
+    font-size:18px;
+}
+
+#unit1-div p
+{
+    margin-right:10px;
+    font-size:21px;
+}
+#unit1-div select
+{
+    height:21px;
+    border-radius:0px;
+    border:none;
+    width:160px;
+    font-size:18px;
+}
+
+#unit2-div p
+{
+    margin-right:10px;
+    font-size:21px;
+}
+#unit2-div select
+{
+    height:20px;
+    border-radius:0px;
+    border:none;
+    width:160px;
+    font-size:18px;
+}
+
+#textbx-div
+{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:60px;
+}
+
+#txtbox
+{
+    width:160px;
+    height:20px;
+    border:none;
+    border-radius:3px;
+    font-size:18px;
+    text-align:center;
+}
+
+#submitbtn-div
+{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+    width:100%;
+}
+
+#sub-btn
+{
+    width:160px;
+    height:28px;
+    font-size:18px;
+    border:none;
+    border-radius:3px;
+    text-align:center;
+    background-color: rgb(169, 173, 171);
+    margin-top:-10px;
+}
+
+#boxonly
+{
+    height:100px;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:rgb(199, 176, 176);
+    display:flex;
+    justify-content: center;
+}
+
+#result-div
+{
+    margin-top:10px;
+}
+#res-place
+{
+    font-size:36px;
+}
